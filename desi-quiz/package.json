@@ -1,12 +1,4 @@
 {
   "name": "desi-quiz-ai",
-  "version": "1.0.0",
-  "description": "Desi Quiz AI — Infinite Indian Trivia Game with AI-generated questions",
-  "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+  "version": "1.0.0"
 }
