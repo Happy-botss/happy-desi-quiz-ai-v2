@@ -3,7 +3,7 @@
 // Keeps your Anthropic API key safe on the server.
 // ─────────────────────────────────────────────
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   // Allow requests from your frontend only
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
